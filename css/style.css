@@ -2,4 +2,80 @@
           padding: 0;
           margin: 0;
 }
+li{
+          list-style: none;
+}
+body{
+          height: 100vh;
+          border: 2px solid black;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+                  
+         
+}
+
+button img{
+         
+          top: 15px;
+          right: 20px;
+      
+        
+}
+
+aside{
+          width: 50%;
+          border: 2px solid red;
+          height: 100%;
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+
+}
+
+aside nav {
+          border: 2px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       
+      
+}
+
+ aside nav h1{
+          font-size: 25px;
+          margin-bottom: 20px;
+
+          padding:10px
+ }               
+
+.sous-titre p {
+          border: 2px solid rgb(76, 45, 201);
+          font-size: 20px;
+          padding: 10px;   
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li:hover{
+          background-color: aquamarine;
+
+}
+ul li a {
+          color: aqua;
+}
+ul li {
+          width: 100%;
+}
+nav.reseaux{
+          height: 30%;
+          width: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+}
+nav>ul>li>div>img{
+          width: 100%;
+}
+
 
