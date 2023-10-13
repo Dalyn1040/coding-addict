@@ -39,6 +39,7 @@ aside nav {
           display: flex;
           justify-content: center;
           align-items: center;
+          
        
       
 }
@@ -65,17 +66,16 @@ ul li a {
 }
 ul li {
           width: 100%;
+          margin-bottom: 30px;
 }
 nav.reseaux{
-          height: 30%;
-          width: 0 auto;
           display: flex;
           align-items: center;
           justify-content: space-between;
+          background-color: aqua;
+          width: auto;
 
 }
-nav>ul>li>div>img{
-          width: 100%;
-}
+
 
 
